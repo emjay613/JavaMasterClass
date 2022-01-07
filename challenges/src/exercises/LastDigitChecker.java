@@ -1,4 +1,4 @@
-package challenges;
+package exercises;
 
 public class LastDigitChecker {
 
@@ -28,4 +28,5 @@ public class LastDigitChecker {
 		
 		return false;
 	}
+	
 }

@@ -1,4 +1,4 @@
-package challenges;
+package exercises;
 
 public class FactorPrinter {
 

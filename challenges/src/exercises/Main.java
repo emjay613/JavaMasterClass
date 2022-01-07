@@ -1,7 +1,6 @@
-package challenges;
+package exercises;
 
 public class Main {
-
 	public static void main(String[] args) {
 		/* === Speed Converter ===
 		SpeedConverter.printConversion(0);
@@ -80,6 +79,7 @@ public class Main {
 		System.out.println(equal);
 		equal = EqualSumChecker.hasEqualSum(2, 3, 5);
 		System.out.println(equal); */
+	
 		
 		/* === Teen Number Checker === */
 		boolean equal = TeenNumberChecker.hasTeen(9, 99, 19);

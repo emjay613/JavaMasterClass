@@ -1,4 +1,4 @@
-package challenges;
+package exercises;
 
 public class SharedDigit {
 
@@ -23,5 +23,5 @@ public class SharedDigit {
 		
 		return false;
 	}
-
+	
 }

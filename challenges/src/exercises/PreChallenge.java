@@ -1,4 +1,4 @@
-package challenges;
+package exercises;
 
 public class PreChallenge {
 
@@ -35,5 +35,5 @@ public class PreChallenge {
 			return 4;
 		}
 	}
-
+	
 }

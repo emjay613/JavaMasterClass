@@ -1,7 +1,15 @@
-package challenges;
+package exercises;
 
 public class MegaBytesConverter {
 
+	public static void main(String[] args) {
+		printMegaBytesAndKiloBytes(-1);
+		printMegaBytesAndKiloBytes(32);
+		printMegaBytesAndKiloBytes(10);
+		printMegaBytesAndKiloBytes(4);
+
+	}
+	
 	public static void printMegaBytesAndKiloBytes(int kiloBytes) {
 		if(kiloBytes < 0 ) {
 			System.out.println("Invalid Value");
@@ -15,4 +23,5 @@ public class MegaBytesConverter {
 		
 	}
 	
+
 }

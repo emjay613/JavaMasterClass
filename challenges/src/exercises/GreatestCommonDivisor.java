@@ -1,4 +1,4 @@
-package challenges;
+package exercises;
 
 public class GreatestCommonDivisor {
 
@@ -32,5 +32,5 @@ public class GreatestCommonDivisor {
 		
 		return divisor;
 	}
-
+	
 }

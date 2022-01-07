@@ -1,4 +1,4 @@
-package challenges;
+package exercises;
 
 public class InEqualityPrinter {
 
@@ -29,5 +29,5 @@ public class InEqualityPrinter {
 	        System.out.println(msg);    
 	    
 	}
-
+	
 }

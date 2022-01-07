@@ -1,7 +1,14 @@
-package challenges;
+package exercises;
 
 public class SpeedConverter {
 
+	public static void main(String[] args) {
+		SpeedConverter.printConversion(0);
+		SpeedConverter.printConversion(-5.6);
+		SpeedConverter.printConversion(25.42);
+		SpeedConverter.printConversion(95.75);
+	}
+	
 	public static long toMilesPerHour(double kilometersPerHour) {
 		if(kilometersPerHour < 0) {
 			return -1;
@@ -18,5 +25,5 @@ public class SpeedConverter {
 			System.out.println(kilometersPerHour + " km/h = "+ mph +" mi/h");
 		}
 	}	
-	
+
 }

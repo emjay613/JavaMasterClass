@@ -1,4 +1,4 @@
-package challenges;
+package exercises;
 
 public class hasSameLastDigit {
 
@@ -40,5 +40,5 @@ public class hasSameLastDigit {
 		return true;
 		
 	}
-
+	
 }

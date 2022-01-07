@@ -1,2 +1,3 @@
 module challenges {
+	exports exercises;
 }
