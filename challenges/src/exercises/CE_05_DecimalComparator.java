@@ -1,12 +1,14 @@
 package exercises;
 
-public class DecimalComparator {
+public class CE_05_DecimalComparator {
 
 	public static void main(String[] args) {
 		boolean equal = areEqualByThreeDecimalPlaces(-3.1756, -3.175);
 		System.out.println(equal);
+		
 		equal = areEqualByThreeDecimalPlaces(3.1756, 3.176);
 		System.out.println(equal);
+	
 		equal = areEqualByThreeDecimalPlaces(3.0, 3.0);
 		System.out.println(equal);
 

@@ -1,12 +1,12 @@
 package exercises;
 
-public class SpeedConverter {
+public class CE_01_SpeedConverter {
 
 	public static void main(String[] args) {
-		SpeedConverter.printConversion(0);
-		SpeedConverter.printConversion(-5.6);
-		SpeedConverter.printConversion(25.42);
-		SpeedConverter.printConversion(95.75);
+		printConversion(0);
+		printConversion(-5.6);
+		printConversion(25.42);
+		printConversion(95.75);
 	}
 	
 	public static long toMilesPerHour(double kilometersPerHour) {

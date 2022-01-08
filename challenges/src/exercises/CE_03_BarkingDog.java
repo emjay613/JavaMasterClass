@@ -1,21 +1,21 @@
 package exercises;
 
-public class BarkingDog {
+public class CE_03_BarkingDog {
 
 	public static void main(String[] args) {
-		boolean getUp =	BarkingDog.shouldWakeUp(true, 1);
+		boolean getUp =	shouldWakeUp(true, 1);
 		System.out.println(getUp);
 		
-		getUp =	BarkingDog.shouldWakeUp(false, 2);
+		getUp =	shouldWakeUp(false, 2);
 		System.out.println(getUp);
 		
-		getUp =	BarkingDog.shouldWakeUp(true, 8);
+		getUp =	shouldWakeUp(true, 8);
 		System.out.println(getUp);
 		
-		getUp =	BarkingDog.shouldWakeUp(true, -1);
+		getUp =	shouldWakeUp(true, -1);
 		System.out.println(getUp);
 		
-		getUp =	BarkingDog.shouldWakeUp(true, 23);
+		getUp =	shouldWakeUp(true, 23);
 		System.out.println(getUp);
 	}
 

@@ -1,6 +1,6 @@
 package exercises;
 
-public class MinutesToYEarsDaysCalculator {
+public class CE_09_MinutesToYEarsDaysCalculator {
 
 	public static void main(String[] args) {
 		printYearsAndDays(525600);

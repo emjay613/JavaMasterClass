@@ -1,6 +1,6 @@
 package exercises;
 
-public class InEqualityPrinter {
+public class CE_10_EqualityPrinter {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

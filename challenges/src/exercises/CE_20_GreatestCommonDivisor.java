@@ -1,6 +1,6 @@
 package exercises;
 
-public class GreatestCommonDivisor {
+public class CE_20_GreatestCommonDivisor {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

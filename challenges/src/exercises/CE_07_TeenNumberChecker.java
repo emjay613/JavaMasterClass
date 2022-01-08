@@ -1,24 +1,33 @@
 package exercises;
 
-public class TeenNumberChecker {
+public class CE_07_TeenNumberChecker {
 
 	public static void main(String[] args) {
-		boolean equal = TeenNumberChecker.hasTeen(9, 99, 19);
+		
+		//checking the hasTeen method
+		boolean equal = hasTeen(9, 99, 19);
 		System.out.println(equal);
-		equal = TeenNumberChecker.hasTeen(23, 15, 42);
-		System.out.println(equal);
-		equal = TeenNumberChecker.hasTeen(22, 23, 34);
-		System.out.println(equal);
-		equal = TeenNumberChecker.hasTeen(13, 24, 66);
+	
+		equal = hasTeen(23, 15, 42);
 		System.out.println(equal);
 		
-		equal = TeenNumberChecker.isTeen(13);
+		equal = hasTeen(22, 23, 34);
 		System.out.println(equal);
-		equal = TeenNumberChecker.isTeen(9);
+		
+		equal = hasTeen(13, 24, 66);
 		System.out.println(equal);
-		equal = TeenNumberChecker.isTeen(17);
+		
+		//checking the isTeen method
+		equal = isTeen(13);
 		System.out.println(equal);
-		equal = TeenNumberChecker.isTeen(34);
+		
+		equal = isTeen(9);
+		System.out.println(equal);
+		
+		equal = isTeen(17);
+		System.out.println(equal);
+		
+		equal = isTeen(34);
 		System.out.println(equal);
 	}
 

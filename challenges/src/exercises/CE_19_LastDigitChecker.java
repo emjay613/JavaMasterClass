@@ -1,6 +1,6 @@
 package exercises;
 
-public class hasSameLastDigit {
+public class CE_19_LastDigitChecker {
 
 	public static void main(String[] args) {
 		System.out.println("41, 22, 71 have a shared digit " + hasSameLastDigit(41, 22, 71));

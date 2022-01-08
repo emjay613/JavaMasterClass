@@ -1,6 +1,6 @@
 package exercises;
 
-public class FactorPrinter {
+public class CE_21_AllFactors {
 
 	public static void main(String[] args) {
 		printFactors(6);

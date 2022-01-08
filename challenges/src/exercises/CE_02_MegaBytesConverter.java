@@ -1,6 +1,6 @@
 package exercises;
 
-public class MegaBytesConverter {
+public class CE_02_MegaBytesConverter {
 
 	public static void main(String[] args) {
 		printMegaBytesAndKiloBytes(-1);

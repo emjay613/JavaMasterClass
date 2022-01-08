@@ -1,6 +1,6 @@
 package exercises;
 
-public class PlayingCat {
+public class CE_11_PlayingCat {
 
 	public static void main(String[] args) {
 	       System.out.println(isCatPlaying(true, 10));

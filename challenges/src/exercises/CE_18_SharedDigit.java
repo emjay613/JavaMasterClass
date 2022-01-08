@@ -1,6 +1,6 @@
 package exercises;
 
-public class SharedDigit {
+public class CE_18_SharedDigit {
 
 	public static void main(String[] args) {
 		System.out.println("27 and 38 have a shared digit " + hasSharedDigit(27,38));

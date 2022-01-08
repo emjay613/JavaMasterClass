@@ -82,22 +82,22 @@ public class Main {
 	
 		
 		/* === Teen Number Checker === */
-		boolean equal = TeenNumberChecker.hasTeen(9, 99, 19);
+		boolean equal = CE_07_TeenNumberChecker.hasTeen(9, 99, 19);
 		System.out.println(equal);
-		equal = TeenNumberChecker.hasTeen(23, 15, 42);
+		equal = CE_07_TeenNumberChecker.hasTeen(23, 15, 42);
 		System.out.println(equal);
-		equal = TeenNumberChecker.hasTeen(22, 23, 34);
+		equal = CE_07_TeenNumberChecker.hasTeen(22, 23, 34);
 		System.out.println(equal);
-		equal = TeenNumberChecker.hasTeen(13, 24, 66);
+		equal = CE_07_TeenNumberChecker.hasTeen(13, 24, 66);
 		System.out.println(equal);
 		
-		equal = TeenNumberChecker.isTeen(13);
+		equal = CE_07_TeenNumberChecker.isTeen(13);
 		System.out.println(equal);
-		equal = TeenNumberChecker.isTeen(9);
+		equal = CE_07_TeenNumberChecker.isTeen(9);
 		System.out.println(equal);
-		equal = TeenNumberChecker.isTeen(17);
+		equal = CE_07_TeenNumberChecker.isTeen(17);
 		System.out.println(equal);
-		equal = TeenNumberChecker.isTeen(34);
+		equal = CE_07_TeenNumberChecker.isTeen(34);
 		System.out.println(equal);
 		
 	}

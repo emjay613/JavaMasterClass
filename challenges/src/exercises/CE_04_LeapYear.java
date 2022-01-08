@@ -1,35 +1,35 @@
 package exercises;
 
-public class LeapYear {
+public class CE_04_LeapYear {
 
 	public static void main(String[] args) {
-		boolean ly = LeapYear.isLeapYear(1600);
+		boolean ly = isLeapYear(1600);
 		System.out.println(ly);
-		ly = LeapYear.isLeapYear(2000);
+		ly = isLeapYear(2000);
 		System.out.println(ly);
-		ly = LeapYear.isLeapYear(2400);
+		ly = isLeapYear(2400);
 		System.out.println(ly);
-		ly = LeapYear.isLeapYear(1700);
+		ly = isLeapYear(1700);
 		System.out.println(ly);
-		ly = LeapYear.isLeapYear(1800);
+		ly = isLeapYear(1800);
 		System.out.println(ly);
-		ly = LeapYear.isLeapYear(1900);
+		ly = isLeapYear(1900);
 		System.out.println(ly);
-		ly = LeapYear.isLeapYear(2100);
+		ly = isLeapYear(2100);
 		System.out.println(ly);
-		ly = LeapYear.isLeapYear(2200);
+		ly = isLeapYear(2200);
 		System.out.println(ly);
-		ly = LeapYear.isLeapYear(2300);
+		ly = isLeapYear(2300);
 		System.out.println(ly);
-		ly = LeapYear.isLeapYear(2500);
+		ly = isLeapYear(2500);
 		System.out.println(ly);
-		ly = LeapYear.isLeapYear(2600);
+		ly = isLeapYear(2600);
 		System.out.println(ly);
-		ly = LeapYear.isLeapYear(1924);
+		ly = isLeapYear(1924);
 		System.out.println(ly);
-		ly = LeapYear.isLeapYear(1922);
+		ly = isLeapYear(1922);
 		System.out.println(ly);
-		ly = LeapYear.isLeapYear(-1200);
+		ly = isLeapYear(-1200);
 		System.out.println(ly);
 	}
 
